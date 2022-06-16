@@ -14,6 +14,13 @@
     background-color: black;
     color: white;
 }
+.btnContacto{
+    display: block !important;
+    margin-right: auto  !important;
+    margin-left: auto !important;
+    font-size: 1.5rem !important;
+    margin-top: 4%;
+}
 .bannerDivInicio{
     height: 40rem;
     background-image: url("/assets/images/mantenteBanner.jpg");
@@ -21,6 +28,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 315%;
+}
+.greenCard{
+    margin-top: -5%;
+    padding: 2%;
 }
 .nosotrosSomos{
     margin-top: -3%;
@@ -110,7 +121,7 @@
         height: 43rem;
     }
     .footer{
-        margin-top: -9%;
+        /* margin-top: -9%; */
         padding-bottom: 2%;
     }
     .quieneSomosTitle{
