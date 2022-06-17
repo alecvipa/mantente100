@@ -139,6 +139,12 @@
 }
 
 @media(max-width:991px){
+    .videoDiv{
+        margin-top: -20% !important;
+    }
+    .excavarDiv{
+        margin-top: -25%;
+    }
     .quieneSomosTitle{
         font-size: 36px;
     }
