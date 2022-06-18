@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="facebook-domain-verification" content="2dtfi3kofxydcglrs1ukucybyaxvii" />
-    <meta name="description" content="Somos una constructora 100% mexicana. Brindamos servicios de alta calidad y atención personalizada.">
+    <meta name="description"
+        content="Somos una constructora 100% mexicana. Brindamos servicios de alta calidad y atención personalizada.">
     <meta name="keywords"
         content="Consultoría empresarial, Consultoría estratégica , Empresa de consultoría , Consultoría financiera, Consultoría administrativa , Servicios de consultoría , Consultoría especializada">
     <title>MANTENTE 100</title>
@@ -46,7 +47,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, surename: form.secondname.value, number: form.number.value, email: form.email.value, message: form.message.value  }));
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -60,15 +61,15 @@
         {{{body}}}
     </div>
     {{!-- FOOTER STARTS --}}
-    <div class="footer bg-light">
+    <div class="footer">
         <div class="container textr-center">
             <div class="row">
 
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center">
-                    <p><b>Firehole.</b> Todos los derechos reservados. Sus datos están
+                    <p><b>MANTENTE 100 S.A. DE C.V.</b> Todos los derechos reservados. Sus datos están
                         protegidos por
-                        la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
+                        la ley de privacidad. <span><a href="/privacidad" style="color:  #fc764d;">Visita nuestra
                                 política de privacidad</a></span></p>
                 </div>
                 <div class="col-md-3"></div>

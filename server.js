@@ -63,12 +63,12 @@ app.post("/ajax/email", function (request, response) {
         }
     });
 
-    
-    var htmlBody = `<h2>Contacto</h2><p>Nombre: ${request.body.name} </p><p>Apellidos: ${request.body.surename} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Mensaje (opcional): ${request.body.message}</p>`;
+
+    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Servicio de interés:${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'atencion@fireholeconstrucciones.com',
-        subject: '¡Alguien ha dejado sus datos en FIREHOLE!',
+        to: 'servicios@mantente100.com',
+        subject: '¡Alguien ha dejado sus datos en Mantente 100!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {
@@ -79,6 +79,7 @@ app.post("/ajax/email", function (request, response) {
         };
     });
 });
+
 
 
 // Start our server so that it can begin listening to client requests.

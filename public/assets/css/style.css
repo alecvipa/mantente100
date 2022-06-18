@@ -5,7 +5,16 @@
 }
 .footer{
     padding-top: 3%;
+    background-color: black;
+    color: white;
 
+}
+.logoFluid{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
 }
 .pointer {
     cursor: pointer;
@@ -46,8 +55,8 @@
     margin-top: 5%;
 }
 .privacidadBanner{
-    height: 16rem;
-    background-image: url("/assets/images/fireholeBanner.jpg");
+    height: 36rem;
+    background-image: url("/assets/images/mantenteBanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +124,38 @@
 .cardLinkNosotros:hover{
     color: black !important;
 }
-
+.orangeCard{
+    background-color:  #fc764d;
+    padding: 3%;
+    margin-top: -5%;
+}
+.blueIshCard{
+    background-color:  #ac7f6d;
+    padding: 3%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+.orangeIshCard{
+    background-color:   #4576ae;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.iconLogo{
+    margin-top: 7% !important;
+}
+.textGreenIsh{
+    color: #4576ae !important;
+}
+.tierraDiv{
+    margin-bottom: 3%;
+}
+.contactoDiv{
+    background-color:  #def4e3  !important;
+    padding-top: 15%;
+    padding-bottom: 1%;
+}
 @media (min-width: 992px) {
     .bannerDivInicio{
         height: 43rem;
@@ -139,6 +179,32 @@
 }
 
 @media(max-width:991px){
+    .antesDeContactoDiv{
+        margin-bottom: -10% !important;
+    }
+    .topMargin18{
+        margin-top: -18% !important;
+
+    }
+    .bottomMargin18{
+        margin-bottom: -18% !important;
+        
+    }
+    .contactoDiv{
+        padding-top: 50%;
+    }
+    .blueIshCard{
+        margin-top: -30%;
+        margin-bottom: 15%;
+    }
+    .logoFluid{
+        width: 70%;
+        margin-top: -13%;
+    }
+    .orangeCard{
+        margin-top: -40%;
+    }
+    
     .videoDiv{
         margin-top: -20% !important;
     }
