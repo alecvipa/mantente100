@@ -10,11 +10,11 @@
 
 }
 .logoFluid{
-    width: 25%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5%;
+    
 }
 .pointer {
     cursor: pointer;
@@ -157,6 +157,10 @@
     padding-bottom: 1%;
 }
 @media (min-width: 992px) {
+    .logoFluid{
+        margin-top: 3%;
+        
+    }
     .bannerDivInicio{
         height: 43rem;
     }
@@ -199,7 +203,6 @@
     }
     .logoFluid{
         width: 70%;
-        margin-top: -13%;
     }
     .orangeCard{
         margin-top: -40%;
